@@ -3,6 +3,14 @@
  * @author Gustavo Nunes Bispo
  */
 
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+        .register('/sw.js')
+        .then(() => {
+            console.log("Service worker registrado!")
+        })
+}
+
 function jogar() {
     // Validação de escolha de opção do jogador
     // Usamos o argumento checked para avaliar radion buttons e checkedbox.
