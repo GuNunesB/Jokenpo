@@ -19,6 +19,7 @@ self.addEventListener('install', (event) => {
                 cache.add('./jokenpo/img/pcpapel.png')
                 cache.add('./jokenpo/img/pcpedra.png')
                 cache.add('./jokenpo/img/pctesoura.png')
+                cache.add('./jokenpo/manifest.json')
             })
     )
 })
