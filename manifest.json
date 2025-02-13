@@ -1,9 +1,9 @@
 {
-    "name": "Gasolina ou Etanol?",
-    "short_name": "Flex",
-    "description": "Aplicativo para verificar o combustível mais vantajoso para abastecer em veículos Flex",
-    "start_url": "/flex/",
-    "scope": "/",
+    "name": "JoKenPô - Pedra, Papel e Tesoura",
+    "short_name": "JoKenPô",
+    "description": "Mini game de pedra, papel e tesoura, contra um bot.",
+    "start_url": "/Jokenpo/",
+    "scope": "./",
     "display": "standalone",
     "orientation": "portrait-primary",
     "dir": "ltr",
@@ -12,37 +12,37 @@
     "theme_color": "#ffc400",
     "icons": [
         {
-            "src": "./img/flex48.png",
+            "src": "./img/icon48.png",
             "sizes": "48x48",
             "type": "image/png"
         },
         {
-            "src": "./img/flex96.png",
+            "src": "./img/icon96.png",
             "sizes": "96x96",
             "type": "image/png"
         },
         {
-            "src": "./img/flex144.png",
+            "src": "./img/icon144.png",
             "sizes": "144x144",
             "type": "image/png"
         },
         {
-            "src": "./img/flex192.png",
+            "src": "./img/icon192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "./img/flex256.png",
+            "src": "./img/icon256.png",
             "sizes": "256x256",
             "type": "image/png"
         },
         {
-            "src": "./img/flex384.png",
+            "src": "./img/icon384.png",
             "sizes": "384x384",
             "type": "image/png"
         },
         {
-            "src": "./img/flex512.png",
+            "src": "./img/icon512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
